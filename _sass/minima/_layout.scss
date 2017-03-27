@@ -202,6 +202,8 @@
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
   margin-bottom: 25px;
   height:auto;
   width:100%;
@@ -243,8 +245,16 @@
 
 .resume-skill-cell {
   float: left;
-  width: 45%;
-  padding: 5px;
+  width: 30%;
+  //padding: 5px;
+  margin: 5px;
+}
+
+.resume-skill-cell2 {
+  float: right;
+  width: 30%;
+  //padding: 5px;
+  margin: 5px;
 }
 
 .resume-skill-title {
@@ -253,17 +263,21 @@
 }
 
 .resume-work-element {
-  //padding: $spacing-unit 0;
-  display:table-cell;
-  //padding: 20px;
-  //margin-bottom: 25px;
-  //height:auto;
-  width:100%;
+  margin-bottom: 20px;
+}
+
+h1.resume-work-ele-title {
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .resume-work-ele-title {
-  //padding: $spacing-unit 0;
   display:table;
+  width:100%
+}
+
+.resume-work-ele-date {
+  font-style:italic;
 }
 
 .resume-work-ele-left {
