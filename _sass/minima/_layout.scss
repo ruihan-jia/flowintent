@@ -194,19 +194,20 @@
 /**
  * Resume content
  */
+//mobile first
+
 .resume-div {
-  //padding: $spacing-unit 0;
   display:table;
   border-style: outset;
   border-width: 3px;
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-bottom: 25px;
   height:auto;
-  width:100%;
+  width:90%;
 }
 
 .resume-title {
@@ -234,27 +235,29 @@
 }
 
 .resume-div-left2 {
-  float: left;
-  width: 20%;
+}
+
+.resume-div-left2-box {
+  background-color:#cccccc;
+  padding-left:10px;
+  padding-right:10px;
+  border-style: outset;
+  border-width: 2px;
+  border-radius: 5px;
+  margin-bottom:15px;
+  display:inline-block;
 }
 
 .resume-div-right2 {
-  float: left;
-  width: 80%;
+  float:left;
 }
 
 .resume-skill-cell {
-  float: left;
-  width: 30%;
-  //padding: 5px;
-  margin: 5px;
+  margin-bottom: 10px;
 }
 
 .resume-skill-cell2 {
-  float: right;
-  width: 30%;
-  //padding: 5px;
-  margin: 5px;
+  margin-bottom: 10px;
 }
 
 .resume-skill-title {
@@ -269,6 +272,7 @@
 h1.resume-work-ele-title {
   font-size: 16px;
   font-weight: normal;
+  text-align:left;
 }
 
 .resume-work-ele-title {
@@ -281,11 +285,107 @@ h1.resume-work-ele-title {
 }
 
 .resume-work-ele-left {
-  float: left;
 }
 
 .resume-work-ele-right {
-  float: right;
+  text-align:left;
+}
+
+ul.resume-work-ele-content-list {
+  margin-left:20px;
+}
+
+//for larger screens
+@media only screen and (min-width: 768px) {
+
+  .resume-div {
+    display:table;
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 25px;
+    height:auto;
+    width:100%;
+  }
+
+  .resume-title {
+  }
+
+  .resume-subtitle {
+  }
+
+  .resume-p {
+  }
+
+  .resume-div-left {
+  }
+
+  .resume-div-right {
+  }
+
+  .resume-div-left2 {
+    float: left;
+    width: 20%;
+  }
+
+  .resume-div-left2-box {
+    background-color:inherit;
+    float:left;
+    padding-left:0px;
+    padding-right:0px;
+    border-style: none;
+  }
+
+  .resume-div-right2 {
+    float: left;
+    width: 80%;
+  }
+
+  .resume-skill-cell {
+    float: left;
+    width: 30%;
+    //padding: 5px;
+    margin: 5px;
+  }
+
+  .resume-skill-cell2 {
+    float: right;
+    width: 30%;
+    //padding: 5px;
+    margin: 5px;
+  }
+
+  .resume-skill-title {
+  }
+
+  .resume-work-element {
+    margin-bottom: 20px;
+  }
+
+  h1.resume-work-ele-title {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .resume-work-ele-title {
+  }
+
+  .resume-work-ele-date {
+  }
+
+  .resume-work-ele-left {
+    float: left;
+  }
+
+  .resume-work-ele-right {
+    float: right;
+  }
+
+
 }
 
 
