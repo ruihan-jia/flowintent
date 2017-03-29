@@ -1,0 +1,13 @@
+---
+layout: page
+title: Tech
+permalink: /tech/
+---
+<h1 class="tech-name">Tech - Work In Progress</h1>
+{% for post in site.categories.tech %}
+  <div class="tech-post-div">
+    <h1 class="tech-post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+    <time class="tech-post-date">{{ post.date | date: "%b %-d, %Y" }}</time>
+    {{ post.excerpt }}
+  </div>
+{% endfor %}

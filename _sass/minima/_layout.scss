@@ -389,6 +389,38 @@ ul.resume-work-ele-content-list {
 }
 
 
+
+
+
+/**
+ * Tech Content
+ */
+
+.tech-name {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.tech-post-div {
+  margin-bottom: 30px;
+}
+
+
+.tech-post-title {
+  font-size: 24px;
+}
+
+.tech-post-date {
+  font-style:italic;
+}
+
+
+
+
+
+
+
 /**
  * Posts
  */
@@ -397,9 +429,10 @@ ul.resume-work-ele-content-list {
 }
 
 .post-title {
-  font-size: 36px;
+  font-size: 32px;
   letter-spacing: -1px;
   line-height: 1;
+  margin-bottom:5px;
 
   @include media-query($on-laptop) {
     font-size: 36px;
@@ -433,3 +466,12 @@ ul.resume-work-ele-content-list {
     }
   }
 }
+
+
+
+
+
+
+
+
+
