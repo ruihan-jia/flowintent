@@ -5,6 +5,10 @@ date:   2017-03-29 00:48:33 +0000
 categories: tech
 ---
 
+Self Notes. Links and commands on installing jekyll on Ubuntu and deploy to aws s3.
+
+<br>
+<pre>
 
 http://michaelchelen.net/81fa/install-jekyll-2-ubuntu-14-04/
 //installing on rhel failed, error installing jekyll. so trying ubuntu instead.
@@ -41,6 +45,6 @@ sh deploy.sh
 to set up github:
 https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/#platform-linux
 
-
+</pre>
 
 

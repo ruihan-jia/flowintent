@@ -5,11 +5,17 @@ date:   2017-03-29 00:49:33 +0000
 categories: tech
 ---
 
+A weird bug I ran into.
+
+<div class="post-content2">
+
+I had a putty session connect to a VM in private network. Between the span of a few hours when connecting to the VM again, it shows password invalid even tho it is the correct password. 
 
 login with multiple users including root with correct password failed.
-access denied.
 
-if connection still exists
+result shows access denied.
+
+Fortunately I still had a connection to the VM.
 
 access /var/log/secure or auth.log to troubleshoot.
 
@@ -25,8 +31,10 @@ solution:
 vi /etc/ssh/sshd_config
 PermitRootLogin yes
 AllowUsers ...
-add your user names.
+add your user names in AllowUsers.
 
 /etc/init.d/sshd restart
 
+I did a yum update in the span of the hours which might have caused this problem.
 
+</div>
