@@ -192,6 +192,30 @@
 
 
 /**
+ * Home content
+ */
+
+.home-title {
+  margin-bottom: 40px;
+}
+
+.home-content {
+  margin-bottom: 40px;
+}
+
+.home-link {
+  font-size:24px;
+
+  &,
+  &:visited {
+    color: $grey-color-dark;
+  }
+}
+
+
+
+
+/**
  * Resume content
  */
 //mobile first
